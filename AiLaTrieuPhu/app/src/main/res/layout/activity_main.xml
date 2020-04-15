@@ -10,7 +10,6 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="221dp"
-        android:layout_weight="1dp"
         android:gravity="center"
         android:layout_marginTop="20dp">
 
@@ -23,9 +22,33 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:paddingTop="150dp"
-        android:layout_weight="1dp"
+        android:orientation="vertical"
         android:layout_gravity="center">
         <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:gravity="center">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#E4CF15"
+                android:layout_centerInParent="true">
+            </View>
+            <Button
+                android:onClick="batdau"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="50dp"
+                android:background="@drawable/bg_btn"
+                android:text="Bắt Đầu"
+                android:textColor="#fff"
+                android:textSize="22sp"
+                android:textStyle="bold">
+            </Button>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="20dp"
             android:layout_width="match_parent"
             android:layout_height="55dp"
             android:gravity="center">
@@ -41,11 +64,12 @@
                 android:layout_marginRight="50dp"
                 android:layout_marginLeft="50dp"
                 android:background="@drawable/bg_btn"
-                android:text="Bắt Đầu"
+                android:text="Hướng Dẫn"
                 android:textColor="#fff"
                 android:textSize="22sp"
                 android:textStyle="bold">
             </Button>
         </RelativeLayout>
     </LinearLayout>
+
 </LinearLayout>
