@@ -1,50 +1,75 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.elnino.adm.ailatrieuphu"
-4    android:versionCode="1"
-5    android:versionName="1.0" >
-6
-7    <uses-sdk
-8        android:minSdkVersion="15"
-8-->E:\DuAn1-Mob5151\AiLaTrieuPhu\app\src\main\AndroidManifest.xml
-9        android:targetSdkVersion="29" />
-9-->E:\DuAn1-Mob5151\AiLaTrieuPhu\app\src\main\AndroidManifest.xml
-10
-11    <application
-11-->E:\DuAn1-Mob5151\AiLaTrieuPhu\app\src\main\AndroidManifest.xml:5:5-20:19
-12        android:allowBackup="true"
-12-->E:\DuAn1-Mob5151\AiLaTrieuPhu\app\src\main\AndroidManifest.xml:6:9-35
-13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.0.1] C:\Users\adm\.gradle\caches\transforms-2\files-2.1\c0a39027978b83a483a047f5c31d0c4e\core-1.0.1\AndroidManifest.xml:22:18-86
-14        android:debuggable="true"
-15        android:icon="@mipmap/ic_launcher"
-15-->E:\DuAn1-Mob5151\AiLaTrieuPhu\app\src\main\AndroidManifest.xml:7:9-43
-16        android:label="@string/app_name"
-16-->E:\DuAn1-Mob5151\AiLaTrieuPhu\app\src\main\AndroidManifest.xml:8:9-41
-17        android:roundIcon="@mipmap/ic_launcher_round"
-17-->E:\DuAn1-Mob5151\AiLaTrieuPhu\app\src\main\AndroidManifest.xml:9:9-54
-18        android:supportsRtl="true"
-18-->E:\DuAn1-Mob5151\AiLaTrieuPhu\app\src\main\AndroidManifest.xml:10:9-35
-19        android:testOnly="true"
-20        android:theme="@style/AppTheme" >
-20-->E:\DuAn1-Mob5151\AiLaTrieuPhu\app\src\main\AndroidManifest.xml:11:9-40
-21        <activity android:name="com.elnino.adm.ailatrieuphu.Main2Activity" />
-21-->E:\DuAn1-Mob5151\AiLaTrieuPhu\app\src\main\AndroidManifest.xml:12:9-60
-21-->E:\DuAn1-Mob5151\AiLaTrieuPhu\app\src\main\AndroidManifest.xml:12:19-48
-22        <activity android:name="com.elnino.adm.ailatrieuphu.MainActivity" >
-22-->E:\DuAn1-Mob5151\AiLaTrieuPhu\app\src\main\AndroidManifest.xml:13:9-19:20
-22-->E:\DuAn1-Mob5151\AiLaTrieuPhu\app\src\main\AndroidManifest.xml:13:19-47
-23            <intent-filter>
-23-->E:\DuAn1-Mob5151\AiLaTrieuPhu\app\src\main\AndroidManifest.xml:14:13-18:29
-24                <action android:name="android.intent.action.MAIN" />
-24-->E:\DuAn1-Mob5151\AiLaTrieuPhu\app\src\main\AndroidManifest.xml:15:17-69
-24-->E:\DuAn1-Mob5151\AiLaTrieuPhu\app\src\main\AndroidManifest.xml:15:25-66
-25
-26                <category android:name="android.intent.category.LAUNCHER" />
-26-->E:\DuAn1-Mob5151\AiLaTrieuPhu\app\src\main\AndroidManifest.xml:17:17-77
-26-->E:\DuAn1-Mob5151\AiLaTrieuPhu\app\src\main\AndroidManifest.xml:17:27-74
-27            </intent-filter>
-28        </activity>
-29    </application>
-30
-31</manifest>
+3    package="thanggun99.ailatrieuphu"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="15"
+9-->E:\AiLaTrieuPhu\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="28" />
+10-->E:\AiLaTrieuPhu\app\src\main\AndroidManifest.xml
+11
+12    <application
+12-->E:\AiLaTrieuPhu\app\src\main\AndroidManifest.xml:6:5-38:19
+13        android:name="adm.ailatrieuphu.App"
+13-->E:\AiLaTrieuPhu\app\src\main\AndroidManifest.xml:7:9-44
+14        android:allowBackup="true"
+14-->E:\AiLaTrieuPhu\app\src\main\AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+15-->[com.android.support:support-compat:28.0.0] C:\Users\adm\.gradle\caches\transforms-2\files-2.1\f14724208b5bfeeef0d6bdefe649bca7\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->E:\AiLaTrieuPhu\app\src\main\AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->E:\AiLaTrieuPhu\app\src\main\AndroidManifest.xml:10:9-41
+19        android:supportsRtl="true"
+19-->E:\AiLaTrieuPhu\app\src\main\AndroidManifest.xml:11:9-35
+20        android:testOnly="true"
+21        android:theme="@style/AppTheme" >
+21-->E:\AiLaTrieuPhu\app\src\main\AndroidManifest.xml:12:9-40
+22        <activity
+22-->E:\AiLaTrieuPhu\app\src\main\AndroidManifest.xml:13:9-21:20
+23            android:name="adm.ailatrieuphu.activity.MainActivity"
+23-->E:\AiLaTrieuPhu\app\src\main\AndroidManifest.xml:14:13-66
+24            android:screenOrientation="portrait" >
+24-->E:\AiLaTrieuPhu\app\src\main\AndroidManifest.xml:15:13-49
+25            <intent-filter>
+25-->E:\AiLaTrieuPhu\app\src\main\AndroidManifest.xml:16:13-20:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->E:\AiLaTrieuPhu\app\src\main\AndroidManifest.xml:17:17-69
+26-->E:\AiLaTrieuPhu\app\src\main\AndroidManifest.xml:17:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->E:\AiLaTrieuPhu\app\src\main\AndroidManifest.xml:19:17-77
+28-->E:\AiLaTrieuPhu\app\src\main\AndroidManifest.xml:19:27-74
+29            </intent-filter>
+30        </activity>
+31        <activity
+31-->E:\AiLaTrieuPhu\app\src\main\AndroidManifest.xml:22:9-24:52
+32            android:name="adm.ailatrieuphu.activity.SettingsActivity"
+32-->E:\AiLaTrieuPhu\app\src\main\AndroidManifest.xml:23:13-70
+33            android:screenOrientation="portrait" />
+33-->E:\AiLaTrieuPhu\app\src\main\AndroidManifest.xml:24:13-49
+34        <activity
+34-->E:\AiLaTrieuPhu\app\src\main\AndroidManifest.xml:25:9-36:20
+35            android:name="adm.ailatrieuphu.activity.PlayerActivity"
+35-->E:\AiLaTrieuPhu\app\src\main\AndroidManifest.xml:26:13-68
+36            android:screenOrientation="portrait" >
+36-->E:\AiLaTrieuPhu\app\src\main\AndroidManifest.xml:27:13-49
+37
+38            <!--
+39                <intent-filter>
+40                <action android:name="android.intent.action.MAIN" />
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+43            </intent-filter>
+44            -->
+45        </activity>
+46        <activity android:name="adm.ailatrieuphu.activity.HighScoreActivity" />
+46-->E:\AiLaTrieuPhu\app\src\main\AndroidManifest.xml:37:9-89
+46-->E:\AiLaTrieuPhu\app\src\main\AndroidManifest.xml:37:19-77
+47    </application>
+48
+49</manifest>
